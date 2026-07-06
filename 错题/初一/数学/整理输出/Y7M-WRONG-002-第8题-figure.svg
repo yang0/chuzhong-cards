@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="280" viewBox="0 0 640 280">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1670b8"/>
+    </marker>
+  </defs>
+  <style>
+    .line{stroke:#1670b8;stroke-width:4;fill:none;stroke-linecap:round}
+    .ray{stroke:#1670b8;stroke-width:4;fill:none;stroke-linecap:round;marker-end:url(#arrow)}
+    .mirror{fill:#d9eef8;stroke:none}
+    .label{font-family:Arial, sans-serif;font-size:24px;fill:#222}
+    .num{font-family:Arial, sans-serif;font-size:26px;fill:#222}
+  </style>
+  <polygon class="mirror" points="55,138 585,126 610,170 30,178"/>
+  <line class="line" x1="70" y1="155" x2="570" y2="155"/>
+  <line class="ray" x1="170" y1="60" x2="235" y2="150"/>
+  <line class="ray" x1="235" y1="150" x2="315" y2="65"/>
+  <line class="ray" x1="395" y1="60" x2="445" y2="150"/>
+  <line class="ray" x1="445" y1="150" x2="525" y2="65"/>
+  <text class="label" x="154" y="54">A</text>
+  <text class="label" x="222" y="184">B</text>
+  <text class="label" x="320" y="58">C</text>
+  <text class="label" x="380" y="54">D</text>
+  <text class="label" x="435" y="184">E</text>
+  <text class="label" x="530" y="58">F</text>
+  <text class="num" x="202" y="132">1</text>
+  <text class="num" x="265" y="132">2</text>
+</svg>

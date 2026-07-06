@@ -1,0 +1,28 @@
+# Edge browser profiles
+错题/*/tmp/
+
+# Generated images (reproducible)
+科学/*/figures/
+
+# Large binary / generated files
+*.png
+*.webp
+*.pdf
+*.heic
+*.mp4
+*.zip
+
+# 错题 images (large JPEGs)
+错题/**/*.jpg
+错题/**/figures/
+错题/**/contact_sheets/
+错题/**/_working_*/
+错题/**/tmp/
+
+
+# Obsidian
+.obsidian/
+
+# OS
+Thumbs.db
+.DS_Store

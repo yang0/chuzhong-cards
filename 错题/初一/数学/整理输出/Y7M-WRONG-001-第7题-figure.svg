@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+  <style>
+    .line { stroke:#1670b8; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+    .thin { stroke:#1670b8; stroke-width:2.5; fill:none; stroke-linecap:round; }
+    .label { font-family: "Times New Roman", serif; font-size:28px; font-style:italic; fill:#222; }
+    .right { stroke:#1670b8; stroke-width:2.2; fill:none; }
+  </style>
+
+  <!-- Triangle ACB -->
+  <polyline class="line" points="245,40 355,292 170,270 245,40" />
+
+  <!-- Triangle DCE -->
+  <polyline class="line" points="68,153 448,153 170,270 68,153" />
+
+  <!-- Emphasize crossing sides -->
+  <line class="thin" x1="245" y1="40" x2="355" y2="292" />
+  <line class="thin" x1="170" y1="270" x2="448" y2="153" />
+  <line class="thin" x1="170" y1="270" x2="245" y2="40" />
+  <line class="thin" x1="68" y1="153" x2="448" y2="153" />
+
+  <!-- Right-angle marks at common vertex C, one for each set square -->
+  <path class="right" d="M184 252 L199 235 L217 243" />
+  <path class="right" d="M156 253 L142 235 L124 244" />
+
+  <!-- Intersection labels -->
+  <text class="label" x="240" y="30">A</text>
+  <text class="label" x="360" y="312">B</text>
+  <text class="label" x="155" y="304">C</text>
+  <text class="label" x="42" y="162">D</text>
+  <text class="label" x="454" y="162">E</text>
+  <text class="label" x="327" y="205">F</text>
+  <text class="label" x="302" y="144">G</text>
+  <text class="label" x="191" y="143">H</text>
+</svg>

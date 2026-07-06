@@ -1,0 +1,1 @@
+Create one cute educational illustration for the answer side of an Anki card. Key concept: Test. Composition: A cute chibi character smiling. Constraints: No question text.
