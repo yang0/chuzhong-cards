@@ -23,6 +23,10 @@
 # Obsidian
 .obsidian/
 
+# Python cache
+__pycache__/
+*.pyc
+
 # OS
 Thumbs.db
 .DS_Store
